@@ -5,7 +5,7 @@
 		"annotations": [],
 		"type": "AzureKeyVault",
 		"typeProperties": {
-			"baseUrl": "https://missionadebatch11kv.vault.azure.net/"
+			"baseUrl": "https://<YOUR_KEY_VAULT_NAME>.vault.azure.net/"
 		}
 	}
 }

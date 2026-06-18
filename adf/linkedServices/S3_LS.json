@@ -13,7 +13,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "S3accesskeyid"
+				"secretName": "<S3_ACCESS_KEY_ID_SECRET_NAME>"
 			},
 			"secretAccessKey": {
 				"type": "AzureKeyVaultSecret",
@@ -21,7 +21,7 @@
 					"referenceName": "AzureKeyVault1",
 					"type": "LinkedServiceReference"
 				},
-				"secretName": "S3secretkey"
+				"secretName": "<S3_SECRET_ACCESS_KEY_SECRET_NAME>"
 			},
 			"authenticationType": "AccessKey"
 		}

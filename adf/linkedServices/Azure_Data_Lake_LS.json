@@ -6,8 +6,8 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://radhika2712adls.dfs.core.windows.net/",
-			"encryptedCredential": "<credential>"
+			"url": "https://<YOUR_STORAGE_ACCOUNT_NAME>.dfs.core.windows.net/",
+			"encryptedCredential": "<REDACTED>"
 		}
 	}
 }

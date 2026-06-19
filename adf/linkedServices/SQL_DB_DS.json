@@ -5,13 +5,13 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"server": "missionadesqlserver.database.windows.net",
-			"database": "mission100Rahika2712db",
+			"server": "<YOUR_AZURE_SQL_SERVER>.database.windows.net",
+			"database": "<YOUR_DATABASE_NAME>",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
-			"userName": "Azurelib",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJGREQ3NEJFLUU1RTAtNEZGQS1CNEFGLUQ5QTk2RDU4N0I0NV9lYTBjZDBmYS1jMmNhLTRjYjQtODAyYi0yMDc2MWU1ZTE0M2UiDQp9"
+			"userName": "<YOUR_SQL_USERNAME>",
+			"encryptedCredential": "<REDACTED>"
 		}
 	}
 }
